@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #e6eff6;
+    padding:0 30px;
+    padding-top: 60px;
+}
+section .container{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.up{
+    background-color: #ffffff;
+    grid-column: 1/-1;
+    padding: 40px;
+}
+.up h1{
+    color:#46a4a0;
+    margin-bottom: 18px;
+    font-size: 40px;
+}
+.up span{
+    display: block;
+    color: #c4d671;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.up p{
+    color: #abadb7;
+    line-height: 25px;
+    font-weight:700 ;
+}
+.left{
+    background-color: #2cb3b1;
+    color: #fff;
+    padding: 40px ;
+}
+.left h3{
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+}
+.left .first{
+    color: rgba(255,255,255,.5);
+    margin-bottom: 24px;
+}
+.left .first span{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    padding-right: 10px;
+    
+}
+.left .second{
+    margin-bottom: 24px;
+
+}
+.left form input{
+    border: none;
+    outline: none;
+    width: 20rem;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    background-color: #bfdf33;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+}
+.right{
+    padding: 40px;
+    color: white;
+    background-color: #49bebd;
+}
+.right h2{
+    margin-bottom: 24px;
+}
+.right ul{
+    list-style: none;
+    color: rgba(255,255,255,.6);
+}
